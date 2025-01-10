@@ -1,4 +1,4 @@
-git branchimport logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 
 
@@ -6,7 +6,7 @@ function App() {
   let greet=(name,age) =>{
     console.log('Good morning',{name},{age});
   }
-  greet('minh','20');
+  greet('minhnguyen','20');
 
   return (
     <div className="App">
